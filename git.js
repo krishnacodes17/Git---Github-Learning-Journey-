@@ -24,3 +24,6 @@ function divide(a, b) {
     return a / b;
 }   
 console.log(divide(c, a));
+
+
+console.log("Hello World!");
