@@ -24,7 +24,3 @@ function divide(a, b) {
     return a / b;
 }   
 console.log(divide(c, a));
-
-
-const aa= 25;
-const bb = 30;
