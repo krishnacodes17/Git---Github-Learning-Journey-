@@ -19,3 +19,8 @@ function multiply(m, n) {
     return m * n;
 }
 console.log(multiply(m, n));
+
+function divide(a, b) {
+    return a / b;
+}   
+console.log(divide(c, a));
