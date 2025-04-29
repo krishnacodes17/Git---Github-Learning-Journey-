@@ -27,4 +27,3 @@ console.log(divide(c, a));
 
 
 console.log("Hello World!");
-console.log("helloe krish");
