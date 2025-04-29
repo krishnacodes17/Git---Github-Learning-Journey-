@@ -73,3 +73,13 @@
     - this command help to check any github repositry connect or not
 - git remote add origin (https://github.com/krishnacodes17/Git---Github-Learning-Journey-.git) 
     - its connect our github repositry to our local repositry
+
+ 
+    - this command push our code on github 
+
+    
+## Now  we learn ssh key 
+   - create ssh key first open our git command line  >> open any folder inside our compute > click right burtton > show more option  >> click open git base here >> ssh-keygen -t rsa -b 4096 -C "your_email@example.com" >> now change our email >> press enter > enter > now copy our ssh key >> clip < ~/.ssh/id_ed25519.pub
+
+    - open github click new ssh keys give title and paste coped ssh key  >>> done
+
