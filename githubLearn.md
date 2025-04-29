@@ -77,6 +77,10 @@
  
     - this command push our code on github 
 
+- git push -u origin master
+    - its push our code on github
+- git pull
+    - its pull our code from 
     
 ## Now  we learn ssh key 
    - create ssh key first open our git command line  >> open any folder inside our compute > click right burtton > show more option  >> click open git base here >> ssh-keygen -t rsa -b 4096 -C "your_email@example.com" >> now change our email >> press enter > enter > now copy our ssh key >> clip < ~/.ssh/id_ed25519.pub
@@ -90,3 +94,32 @@
     - to create branch 
 - git checkout "friend"
     - to switch branch
+- git merge "friend"
+    - to merge branch  Note: when we merge branch we are in main branch 
+
+### how to keep our branch name meaningful 
+ - wip > work in progress 
+ - feat > feature 
+ - bug > bug fix
+ - junk > junk code
+ - refactor > code refactoring
+ - test > testing code
+
+  eg : git branch feat/login
+    eg : git branch bug/login
+
+### for more understanding of branches and understand concept  you van wesite 
+ - [link for branch understanding ](https://git-school.github.io/visualizing-git/)
+
+
+## git stash 
+- git stash save "name" 
+    - its save our current work and remove from our local folder
+- git stash list
+    - its show all stash name
+- git stash apply "name"
+    - its apply our stash name
+- git stash pop "name"      
+    - its apply our stash name and remove from stash list
+- git stash clear
+    - its clear our stash list
