@@ -36,3 +36,9 @@ function show () {
     console.log("Hello from friend branch!");
 }
 show();
+
+function show2 () {
+    console.log("Hello from friend branch 2!");
+}
+show2();
+
