@@ -83,3 +83,10 @@
 
     - open github click new ssh keys give title and paste coped ssh key  >>> done
 
+## git branches 
+ - git branche
+    - to check branch 
+- git branch "friend"
+    - to create branch 
+- git checkout "friend"
+    - to switch branch

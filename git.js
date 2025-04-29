@@ -27,3 +27,12 @@ console.log(divide(c, a));
 
 
 console.log("Hello World!");
+
+
+
+// friend branch started 
+
+function show () {
+    console.log("Hello from friend branch!");
+}
+show();
